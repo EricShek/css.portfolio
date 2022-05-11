@@ -1,27 +1,47 @@
 
 
-header{
+
+
+    /* body {
+
+        display: inline;
+       flex-wrap: wrap;
+    }
+     */
+    header {
     border: 1px solid red;
     height: 10vh;
     background-color: red;
-    flex-wrap: wrap;
-    color: white;
+    
 
 }
-div { 
+
+     
     
+    
+
+
+header div { flex-wrap: wrap;
+    color: white;
     display: inline;
     
+   
+    
 
 }
 
-h2 nav li ul { display: inline;
+header nav li ul { 
+    display: inline;
     color: white;
-   align-content: flex-end;
+    text-align: right;
+    justify-content: space-around;
+    
+
+     
 }
-
-
-figure{
+   
+   
+   figure{
     border: 1px solid blue;
     height: 20vh;
 }
