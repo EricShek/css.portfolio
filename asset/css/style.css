@@ -24,11 +24,7 @@ header div { flex-wrap: wrap;
     color: white;
     display: inline;
     flex-basis: 75%;
-    font-size:  200%;
-    
-   
-    
-
+    font-size:  200%;    
 }
 
 header nav li ul { 
@@ -36,9 +32,7 @@ header nav li ul {
     color: white;
     text-align: right;
     justify-content: space-around;
-    flex-basis: 25%;
-    
-     
+    flex-basis: 25%;    
 }
    
    
@@ -68,28 +62,31 @@ header nav li ul {
 
 .smaller-picture{
   flex-basis: 50%;
-  border: 1px solid green;
+  border: 1px solid blue;
   height: 30vh;
 }
 
 
 #AboutMe {
-    border: 1px solid green;
+    border: 1px solid blue;
     height: 30vh;
 }
 
 
 
 #Work{
-    border: 1px solid orange;
+    border: 1px solid blue;
     height: 150vh;
 }
 
 
 
 #Contact{
-    border: 1px solid black;
-    height: 20vh;
+    
+    
+    border: 1px solid red;
+    height: 10vh;
+    background-color: red;
 }
 
 
@@ -103,7 +100,7 @@ header nav li ul {
 
 #first-picture{
     flex-basis: 100%;
-    border: 1px solid violet;
+    border: 1px solid blue;
     height: 60vh;
 }
  
