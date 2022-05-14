@@ -12,18 +12,19 @@
     border: 1px solid red;
     height: 10vh;
     background-color: red;
+    display: flex;
+    flex-wrap: wrap;
     
 
 }
 
      
-    
-    
-
 
 header div { flex-wrap: wrap;
     color: white;
     display: inline;
+    flex-basis: 75%;
+    font-size:  200%;
     
    
     
@@ -35,8 +36,8 @@ header nav li ul {
     color: white;
     text-align: right;
     justify-content: space-around;
+    flex-basis: 25%;
     
-
      
 }
    
